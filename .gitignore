@@ -1,3 +1,4 @@
+# Local credentials and runtime state
 .env
 .env.*
 !.env.example

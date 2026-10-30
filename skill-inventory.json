@@ -1,0 +1,194 @@
+{
+  "snapshot_date": "2026-10-30",
+  "skill_count": 41,
+  "package_count": 33,
+  "file_count": 14329,
+  "bytes": 91892659,
+  "excluded_cache_file_count": 118,
+  "skills": [
+    {
+      "name": "grill-me",
+      "path": ".agents/skills/grill-me/SKILL.md"
+    },
+    {
+      "name": "grilling",
+      "path": ".agents/skills/grilling/SKILL.md"
+    },
+    {
+      "name": "nature-academic-search",
+      "path": ".agents/skills/nature-academic-search/SKILL.md"
+    },
+    {
+      "name": "nature-citation",
+      "path": ".agents/skills/nature-citation/SKILL.md"
+    },
+    {
+      "name": "nature-data",
+      "path": ".agents/skills/nature-data/SKILL.md"
+    },
+    {
+      "name": "nature-downloader",
+      "path": ".agents/skills/nature-downloader/SKILL.md"
+    },
+    {
+      "name": "nature-experiment-log",
+      "path": ".agents/skills/nature-experiment-log/SKILL.md"
+    },
+    {
+      "name": "nature-figure",
+      "path": ".agents/skills/nature-figure/SKILL.md"
+    },
+    {
+      "name": "nature-image2ppt",
+      "path": ".agents/skills/nature-image2ppt/SKILL.md"
+    },
+    {
+      "name": "nature-literature-pipeline",
+      "path": ".agents/skills/nature-literature-pipeline/SKILL.md"
+    },
+    {
+      "name": "nature-paper-card",
+      "path": ".agents/skills/nature-paper-card/SKILL.md"
+    },
+    {
+      "name": "nature-paper-to-patent",
+      "path": ".agents/skills/nature-paper-to-patent/SKILL.md"
+    },
+    {
+      "name": "nature-paper-trans",
+      "path": ".agents/skills/nature-paper-trans/SKILL.md"
+    },
+    {
+      "name": "nature-paper-xray",
+      "path": ".agents/skills/nature-paper-xray/SKILL.md"
+    },
+    {
+      "name": "nature-paper2ppt",
+      "path": ".agents/skills/nature-paper2ppt/SKILL.md"
+    },
+    {
+      "name": "nature-polishing",
+      "path": ".agents/skills/nature-polishing/SKILL.md"
+    },
+    {
+      "name": "researchwrite",
+      "path": ".agents/skills/nature-proposal-writer/SKILL.md"
+    },
+    {
+      "name": "nature-reader",
+      "path": ".agents/skills/nature-reader/SKILL.md"
+    },
+    {
+      "name": "nature-ref-verifier",
+      "path": ".agents/skills/nature-ref-verifier/SKILL.md"
+    },
+    {
+      "name": "nature-response",
+      "path": ".agents/skills/nature-response/SKILL.md"
+    },
+    {
+      "name": "nature-reviewer",
+      "path": ".agents/skills/nature-reviewer/SKILL.md"
+    },
+    {
+      "name": "nature-shared",
+      "path": ".agents/skills/nature-shared/SKILL.md"
+    },
+    {
+      "name": "nature-social-science",
+      "path": ".agents/skills/nature-social-science/SKILL.md"
+    },
+    {
+      "name": "nature-statistics",
+      "path": ".agents/skills/nature-statistics/SKILL.md"
+    },
+    {
+      "name": "nature-writing",
+      "path": ".agents/skills/nature-writing/SKILL.md"
+    },
+    {
+      "name": "ppt-master",
+      "path": ".agents/skills/ppt-master/SKILL.md"
+    },
+    {
+      "name": "find-skills",
+      "path": ".agents/skills/find-skills/SKILL.md"
+    },
+    {
+      "name": "paper-critical-analysis",
+      "path": ".agents/skills/paper-critical-analysis/SKILL.md"
+    },
+    {
+      "name": "paper-deep-read",
+      "path": ".agents/skills/paper-deep-read/SKILL.md"
+    },
+    {
+      "name": "paper-quick-scan",
+      "path": ".agents/skills/paper-quick-scan/SKILL.md"
+    },
+    {
+      "name": "patent-disclosure-skill",
+      "path": ".agents/skills/patent-disclosure-skill/SKILL.md"
+    },
+    {
+      "name": "patent-application",
+      "path": ".agents/skills/patent-disclosure-skill/skills/patent-application/SKILL.md"
+    },
+    {
+      "name": "patent-disclosure",
+      "path": ".agents/skills/patent-disclosure-skill/skills/patent-disclosure/SKILL.md"
+    },
+    {
+      "name": "patent-docket",
+      "path": ".agents/skills/patent-disclosure-skill/skills/patent-docket/SKILL.md"
+    },
+    {
+      "name": "patent-exam-policy",
+      "path": ".agents/skills/patent-disclosure-skill/skills/patent-exam-policy/SKILL.md"
+    },
+    {
+      "name": "patent-map",
+      "path": ".agents/skills/patent-disclosure-skill/skills/patent-map/SKILL.md"
+    },
+    {
+      "name": "patent-oa",
+      "path": ".agents/skills/patent-disclosure-skill/skills/patent-oa/SKILL.md"
+    },
+    {
+      "name": "patent-reader",
+      "path": ".agents/skills/patent-disclosure-skill/skills/patent-reader/SKILL.md"
+    },
+    {
+      "name": "patent-search",
+      "path": ".agents/skills/patent-disclosure-skill/skills/patent-search/SKILL.md"
+    },
+    {
+      "name": "patent-novelty-check",
+      "path": ".agents/skills/patent-novelty-check/SKILL.md"
+    },
+    {
+      "name": "prior-art-search",
+      "path": ".agents/skills/prior-art-search/SKILL.md"
+    }
+  ],
+  "requirements_files": [
+    ".agents/skills/nature-academic-search/mcp-server/requirements.txt",
+    ".agents/skills/nature-downloader/requirements.txt",
+    ".agents/skills/nature-figure/requirements.txt",
+    ".agents/skills/nature-image2ppt/requirements.txt",
+    ".agents/skills/nature-paper-to-patent/requirements.txt",
+    ".agents/skills/nature-paper-to-patent/scripts/disclosure/requirements-cnipa.txt",
+    ".agents/skills/nature-paper-trans/requirements.txt",
+    ".agents/skills/ppt-master/requirements.txt",
+    ".agents/skills/patent-disclosure-skill/requirements.txt",
+    ".agents/skills/patent-disclosure-skill/skills/patent-disclosure/tools/crawl/requirements-cnipa.txt",
+    ".agents/skills/patent-disclosure-skill/skills/patent-disclosure/tools/requirements-pdf.txt",
+    ".agents/skills/patent-disclosure-skill/skills/patent-disclosure/tools/requirements-step.txt",
+    ".agents/skills/patent-disclosure-skill/skills/patent-map/tools/ipc_scheme/requirements.txt",
+    ".agents/skills/patent-disclosure-skill/skills/patent-map/tools/requirements.txt",
+    ".agents/skills/patent-disclosure-skill/skills/patent-oa/tools/requirements-oa.txt",
+    ".agents/skills/patent-disclosure-skill/skills/patent-reader/tools/crawl/requirements-cnipa.txt",
+    ".agents/skills/patent-disclosure-skill/skills/patent-reader/tools/requirements.txt",
+    ".agents/skills/patent-disclosure-skill/skills/patent-search/tools/requirements-cnipa.txt"
+  ]
+}
