@@ -1,12 +1,16 @@
 name: nature-paper-trans
-description: Translate selected pages or full English research-paper PDFs into Simplified Chinese image-based PDFs while preserving each source page's size, orientation, layout, columns, figures, and equations as closely as possible. Deliver only the Chinese PDF for reading, not an editable Word reconstruction or word-by-word proofread edition.
+description: Translate an English paper into a Chinese PDF with selectable text for highlighting and annotation by default.
 always_load:
   - SKILL.md
 references:
   on_demand:
-    - condition: before the first page-generation request
+    - condition: the user explicitly requests image-only output and source image paths are supported
+      path: references/image-workflow.md
+    - condition: before a page-generation request
       path: references/image-translation-prompt.md
 scripts:
   on_demand:
-    - condition: preparing source pages, tracking results, or assembling deliverables
+    - condition: translate or assemble pages locally, including after image path errors
+      path: scripts/local_pdf.py
+    - condition: prepare image inputs, track generation, or assemble image-only results
       path: scripts/pages.py

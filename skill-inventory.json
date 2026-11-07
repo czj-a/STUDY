@@ -1,9 +1,9 @@
 {
-  "snapshot_date": "2026-10-30",
+  "snapshot_date": "2026-11-07",
   "skill_count": 41,
   "package_count": 33,
-  "file_count": 14329,
-  "bytes": 91892659,
+  "file_count": 14331,
+  "bytes": 91899605,
   "excluded_cache_file_count": 118,
   "skills": [
     {
